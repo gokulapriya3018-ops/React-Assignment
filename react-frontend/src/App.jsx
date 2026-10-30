@@ -9,19 +9,19 @@ function App() {
 
   const add = () => {
     setResult(Number(num1) + Number(num2))
-    setBgColor('#15803d')
+    setBgColor('#0f4724ff')
   }
   const sub = () => {
     setResult(Number(num1) - Number(num2))
-    setBgColor('#b91c1c')
+    setBgColor('  #d12424ff')
   }
   const mul = () => {
     setResult(Number(num1) * Number(num2))
-    setBgColor('#1d4ed8')
+    setBgColor('#56dcf7ff')
   }
   const div = () => {
     setResult(Number(num1) / Number(num2))
-    setBgColor('#c2410c')
+    setBgColor('#924e25ff')
   }
   const reset = () => {
     setNum1('')
